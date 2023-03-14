@@ -1,0 +1,11 @@
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid #333;
+}
+
+.board div {
+    border: 1px solid #333;
+}
