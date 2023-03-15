@@ -91,6 +91,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.input p {
+    font-weight: bold;
+}
+
 input[type="range"] {
     width: 80%;
 }

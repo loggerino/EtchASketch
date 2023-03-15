@@ -8,7 +8,7 @@ let currentColor = 'black';
 let userClicked = false;
 
 board.addEventListener('click', () => {
-    userClicked = true;
+    userClicked = !userClicked; // toggle the userClicked variable
 });
 
 blackBtn.addEventListener('click', () => {
